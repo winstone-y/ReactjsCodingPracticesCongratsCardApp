@@ -3,16 +3,24 @@
   background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
   background-size: cover;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .heading {
   font-size: 32px;
   color: #0f172a;
+  text-align: center;
 }
 
 .container {
   height: 500px;
   width: 500px;
   background-color: #cffafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .image-container {
   display: block;
