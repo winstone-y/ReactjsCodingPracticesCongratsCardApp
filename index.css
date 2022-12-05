@@ -1,0 +1,33 @@
+/* Write your code here. */
+#root {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  height: 100vh;
+}
+.heading {
+  font-size: 32px;
+  color: #0f172a;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: #cffafe;
+}
+.image-container {
+  display: block;
+}
+.image {
+  width: 250px;
+  border-radius: 50px;
+}
+.name,
+.college {
+  color: #1e293b;
+}
+.name {
+  font-size: 26px;
+}
+.college {
+  font-size: 20px;
+}
